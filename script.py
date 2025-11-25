@@ -1,24 +1,3 @@
-"""
-script.py
-
-Script en Python para analizar `Data_Biocompatibilidad.csv`.
-
-Requisitos: pandas, matplotlib, matplotlib_venn, numpy
-
-Instalación (si hace falta):
-	pip install pandas matplotlib matplotlib-venn numpy
-
-Ejecutar:
-	python script.py
-
-El script hace lo siguiente:
- - Carga el CSV con pandas
- - Muestra estadísticas básicas: materiales, medicamentos, reacciones, compatibilidad
- - Genera 3 gráficas: diagrama de Venn, barras top5 materiales, índice de compatibilidad
-
-Comentarios están en español y pensados para nivel principiante.
-"""
-
 import os
 import sys
 import collections
